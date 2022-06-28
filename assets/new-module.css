@@ -3,6 +3,12 @@
     background-position: top;
     background-size: cover;
 }
+.d-table {
+  display: table;
+}
+.d-table-cell {
+  display: table-cell;
+}
 .ps-as {
   position: absolute;
     top: 0;
