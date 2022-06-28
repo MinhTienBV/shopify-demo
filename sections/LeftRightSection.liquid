@@ -4,6 +4,7 @@
 {% else %}
     {% assign classname = "images-left" %}
 {% endif %}
+{{secion.settings.imageModule}}
 <section
   class="module mod-list-system single-system bg-type-line">
   <div class="system-item">
@@ -13,7 +14,7 @@
           <div class="d-table-cell p01 last-mb-none ">
 
              <div class="system-icon">
-				{{ secion.settings.imageModule | image_url | image_tag }}
+              <img src="{{secion.settings.imageModule | img_url: 'large' }}" alt="{{secion.settings.imageModule | img_alt }}">
             </div>
             
               <h2>
