@@ -6,6 +6,9 @@
     left: 0;
     z-index: 1;
 }
+.text-white {
+    color: #fff!important;
+}
 .mod-list-system {
     padding-bottom: 75px
 }
