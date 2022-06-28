@@ -17,12 +17,12 @@
             </div>
             {% endif %}
             
-            {% if section.settings.content != blank %}
-             <h2>{{secion.settings.content }}</h2>
+            {% if section.settings.headline != blank %}
+             <h2>{{secion.settings.headline }}</h2>
             {% endif %}
             
-            {% if section.settings.content2 != blank %}
-              {{secion.settings.content2 }}
+            {% if section.settings.content != blank %}
+              {{secion.settings.content }}
             {% endif %}
           </div>
         </div>
@@ -36,12 +36,12 @@
 "name": "Welcome", // Section name
 "settings": [
   {
-    "id": "content",
+    "id": "headline",
     "type": "textarea",
     "label": "Heading"
   },
    {
-    "id": "content2",
+    "id": "content",
     "type": "richtext",
     "label": "Content"
   },
