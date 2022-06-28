@@ -1,12 +1,70 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
+<!-- Welcome section starts -->
+{% if section.settings.image_right %}
+    {% assign classname = "images-right" %}
+{% else %}
+    {% assign classname = "images-left" %}
+{% endif %}
+<section
+  class="module mod-list-system single-system bg-type-line {{classname}}">
+  <div class="system-item page-width">
+    <div class="system-item-container anima-bottom">
+      <div class="system-content text-white">
+        <div class="d-table w-100">
+          <div class="d-table-cell p01 last-mb-none ">
 
+             <div class="system-icon">
+              <img src="{{section.settings.imageModule | img_url: 'large' }}" alt="{{section.settings.imageModule | img_alt }}">
+            </div>
+            
+              <h2>
+               {{section.settings.headline }}
+              </h2>
+            
+            {{ section.settings.content }}
+      
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+       <div class="system-item-img bg ps-as" style="background-image: url({{section.settings.imageBG | img_url:'master' }});">
+    </div>
+</section>
+
+<!-- Welcome section ends -->
+{% schema %}
+{
+"name": "List Logo", // Section name
+"settings": [
+  {
+    "id": "headline",
+    "type": "text",
+    "label": "Heading"
+  },
+   {
+    "id": "content",
+    "type": "richtext",
+    "label": "Content"
+  }
+],
+"blocks": [{
+	"type": "image",
+	"name" : "image_block",
+	"settings":[{
+		"type":"image_picker",
+		"id" : "imageSlider",
+		"label":"List Image"
+		}]}
+],
+"presets": [
+  {
+  "name": "List Logo",
+  "category": "ADVANCED LAYOUT"
+  }
+]
+}
+{% endschema %}
 {% stylesheet %}
 {% endstylesheet %}
-
 {% javascript %}
 {% endjavascript %}
