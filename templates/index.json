@@ -221,10 +221,10 @@
         "padding_bottom": 36
       }
     },
-    "1656392316460663f1": {
+    "16563923215352b6f5": {
       "type": "Welcom",
       "settings": {
-        "content": "sdsaddadsad",
+        "content": "Our values.",
         "imageModule": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
         "image_right": true
       }
@@ -238,6 +238,6 @@
     "collage",
     "video",
     "multicolumn",
-    "1656392316460663f1"
+    "16563923215352b6f5"
   ]
 }
