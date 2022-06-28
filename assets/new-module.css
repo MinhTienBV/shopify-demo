@@ -16,6 +16,7 @@
 }
 .mod-list-system {
     padding-bottom: 75px
+      position:relative;
 }
 
 .mod-list-system.bg-type-line:after {
