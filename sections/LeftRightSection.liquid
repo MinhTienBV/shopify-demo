@@ -4,7 +4,6 @@
 {% else %}
     {% assign classname = "images-left" %}
 {% endif %}
-{{section.settings.imageModule}}
 <section
   class="module mod-list-system single-system bg-type-line">
   <div class="system-item">
@@ -27,7 +26,7 @@
         </div>
       </div>
     </div>
-     <div class="system-item-img bg ps-as" style="background-image: url({{secion.settings.imageModule | img_url:'master' }});">
+     <div class="system-item-img bg ps-as" style="background-image: url({{section.settings.imageModule | img_url:'master' }});">
     </div>
   </div>
 </section>
