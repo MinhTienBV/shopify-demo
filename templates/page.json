@@ -6,9 +6,20 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "165640671581b969f1": {
+      "type": "LeftRightSection",
+      "settings": {
+        "headline": "Hihi",
+        "content": "<p>Hihi<\/p>",
+        "imageModule": "shopify:\/\/shop_images\/SBAR_wht5.png",
+        "imageBG": "shopify:\/\/shop_images\/urban-mens-fashion-on-young-adult.jpg",
+        "image_right": false
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "165640671581b969f1"
   ]
 }
