@@ -230,6 +230,38 @@
         "imageBG": "shopify:\/\/shop_images\/rack-of-womens-clothing.jpg",
         "image_right": false
       }
+    },
+    "1656404933485e43fb": {
+      "type": "listlogo",
+      "blocks": {
+        "44b75d1b-e1df-43f3-b24b-56d25f7e828b": {
+          "type": "image",
+          "settings": {
+            "imageSlider": "shopify:\/\/shop_images\/rack-of-womens-clothing.jpg"
+          }
+        },
+        "8820e1a7-7ac1-4fc2-85bf-d7df0f3ffe75": {
+          "type": "image",
+          "settings": {
+            "imageSlider": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg"
+          }
+        },
+        "2bc2c59b-b06e-4d94-ae37-dbbc61763236": {
+          "type": "image",
+          "settings": {
+            "imageSlider": "shopify:\/\/shop_images\/urban-mens-fashion-on-young-adult.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "44b75d1b-e1df-43f3-b24b-56d25f7e828b",
+        "8820e1a7-7ac1-4fc2-85bf-d7df0f3ffe75",
+        "2bc2c59b-b06e-4d94-ae37-dbbc61763236"
+      ],
+      "settings": {
+        "headline": "What is Lorem Ipsum?",
+        "content": "<p><strong>Lorem Ipsum<\/strong>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum<\/p>"
+      }
     }
   },
   "order": [
@@ -240,6 +272,7 @@
     "collage",
     "video",
     "multicolumn",
-    "1656398013b176b2fa"
+    "1656398013b176b2fa",
+    "1656404933485e43fb"
   ]
 }
