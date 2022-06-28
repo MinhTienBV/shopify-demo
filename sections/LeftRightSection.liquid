@@ -6,7 +6,30 @@
 {% endif %}
 
 {{ section.settings.content }}
+<section
+  class="module mod-list-system single-system bg-type-line">
+  <div class="system-item">
+    <div class="system-item-container anima-bottom">
+      <div class="system-content text-white">
+        <div class="d-table w-100">
+          <div class="d-table-cell p01 last-mb-none ">
 
+            
+            {% if section.settings.headline != blank %}
+              <h2>
+               {{secion.settings.headline }}
+              </h2>
+            {% endif %}
+            {% if section.settings.content != blank %}
+              {{secion.settings.content }}
+            {% endif %}
+      
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- Welcome section ends -->
 {% schema %}
