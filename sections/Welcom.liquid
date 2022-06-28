@@ -17,7 +17,10 @@
             </div>
             {% endif %}
             {% if section.settings.content != blank %}
-              {{ section.settings.content }}
+            <h2>{{secion.settings.content }}</h2>
+            {% endif %}
+             {% if section.settings.content2 != blank %}
+              {{secion.settings.content2 }}
             {% endif %}
           </div>
         </div>
@@ -33,7 +36,12 @@
   {
     "id": "content",
     "type": "textarea",
-    "label": "Heading 1"
+    "label": "Heading"
+  },
+   {
+    "id": "content2",
+    "type": "richtext",
+    "label": "Content"
   },
   {
     "id": "imageModule",
