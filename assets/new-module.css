@@ -1,3 +1,8 @@
+.bg {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
 .ps-as {
   position: absolute;
     top: 0;
