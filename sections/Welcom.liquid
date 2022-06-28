@@ -19,10 +19,12 @@
             
             {% if section.settings.headline != blank %}
               <h2>
-             {{secion.settings.headline }}
-            	</h2>
+               {{secion.settings.headline }}
+              </h2>
             {% endif %}
-            
+            {% if section.settings.content != blank %}
+              {{secion.settings.content }}
+            {% endif %}
       
           </div>
         </div>
