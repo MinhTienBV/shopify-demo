@@ -66,6 +66,8 @@
 
 .system-item h2 {
     margin-bottom: 36px
+          margin-top: 0;
+  color: #fff;
 }
 
 .system-item p {
